@@ -4,14 +4,14 @@
   "description": "a sample node.js app for heroku",
   "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node web.js"
   },
   "dependencies": {
-    "express": "2.5.x"
+    "express": "^4.13.3"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "node": "4.0.0",
+    "npm": "3.5.2"
   },
   "repository": {
     "type": "git",
